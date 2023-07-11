@@ -1,0 +1,31 @@
+.header-bg {
+  background: #242424;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 1.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnHeader {
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.btnHeader::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #e54;
+  display: block;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  position: absolute;
+}
