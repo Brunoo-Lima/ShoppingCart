@@ -1,16 +1,17 @@
-import React from 'react';
+import { AiOutlineSearch } from 'react-icons/ai';
+import './Search.css';
 
 const Search = () => {
   return (
-    <form className="d-flex">
+    <form className="formSearch">
       <input
-        className="form-control me-2"
+        className="inputSearch"
         type="search"
-        placeholder="Search"
+        placeholder="Buscar produtos"
         aria-label="Search"
       />
-      <button className="btn btn-outline-success" type="submit">
-        Search
+      <button className="btnSearch" type="submit">
+        <AiOutlineSearch />
       </button>
     </form>
   );
