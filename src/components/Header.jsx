@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header-bg">
       <div className="container header">
         <h1 className="">myShoppingCart</h1>
-        <div className="form ">
+        <div>
           <Search />
         </div>
 

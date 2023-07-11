@@ -1,0 +1,24 @@
+.btnCart {
+  font-size: 1.5rem;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 5px;
+  position: relative;
+}
+
+.btnCartStatus {
+  position: absolute;
+  background: #e54;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
