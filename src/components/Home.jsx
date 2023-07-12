@@ -7,7 +7,7 @@ const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    Api('computador').then((response) => {
+    Api('notebook').then((response) => {
       setProducts(response);
     });
   }, []);

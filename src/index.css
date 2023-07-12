@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -14,6 +15,6 @@
 }
 
 body {
-  background-color: #ddd;
+  background-color: #fff;
   font-family: Helvetica, sans-serif;
 }
