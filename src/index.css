@@ -6,8 +6,14 @@
 .container {
   max-width: 1200px;
   padding: 0 2rem;
+  margin: auto;
+}
+
+.main {
+  margin-top: 75px;
 }
 
 body {
   background-color: #ddd;
+  font-family: Helvetica, sans-serif;
 }
