@@ -1,13 +1,16 @@
+import { AppContext } from './UserContext';
 import Header from './components/Header';
 import Home from './components/Home';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <main className="main">
-        <Home />
-      </main>
+      <AppContext>
+        <Header />
+        <main className="main">
+          <Home />
+        </main>
+      </AppContext>
     </>
   );
 };
